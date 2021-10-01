@@ -1,7 +1,7 @@
 # ARCADE_MisionTic2022
 Grupo 43-44-45
 # Integrantes
-Alejandro Ardila Quesada
+Alejandro Ardila Quesada 
 Rubén Darío Vargas Jiménez
 Carlos Andres Soriano Gonzalez
 Argemiro Vargas Villareal
