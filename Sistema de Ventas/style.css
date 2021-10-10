@@ -48,7 +48,7 @@ tr:hover td{
     font-weight: bold;
 }
 
-#btn{
+#btn1{
     background-color: rgb(97, 124, 241);
     border-radius: 5px;
     box-shadow: 0 0 10px gray;
@@ -58,7 +58,22 @@ tr:hover td{
     font-weight: bold;
 }
 
-#btn:hover{
+.btn2{
+    background-color: rgb(97, 124, 241);
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+    position: absolute;
+    right: 75%;
+    top: 10%;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#btn1:hover{
+    background-color: rgb(241, 71, 71);
+}
+
+.btn2:hover{
     background-color: rgb(241, 71, 71);
 }
 
