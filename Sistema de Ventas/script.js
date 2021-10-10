@@ -35,11 +35,11 @@ class Busqueda{
         });
 
         let fila = cuerpo.insertRow(cuerpo.rows.length);
-            fila.insertCell(0).innerHTML = "<b>TOTAL";
+            fila.insertCell(0).innerHTML = "<p class='resalto'>TOTAL</p>";
             fila.insertCell(1).innerHTML = "";
             fila.insertCell(2).innerHTML = "";
-            fila.insertCell(3).innerHTML = this.productos.map(p => parseInt(p.ventas)).reduce((a,b) => a+b);
-            fila.insertCell(4).innerHTML = this.productos.map(p => parseInt(p.costos)).reduce((a,b) => a+b);
+            fila.insertCell(3).innerHTML = "<p class='resalto'>"+this.productos.map(p => parseInt(p.ventas)).reduce((a,b) => a+b)+"</p>";
+            fila.insertCell(4).innerHTML = "<p class='resalto'>"+this.productos.map(p => parseInt(p.costos)).reduce((a,b) => a+b)+"</p>";
             
     }
     //Metodo de filtrado de datos
